@@ -1,1 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Wet+Paint&display=swap');
 @import 'tailwindcss';
+
+html,
+body {
+	margin: 0;
+}
+
+html {
+	font-family: 'Inter', 'Ubuntu', sans-serif;
+	font-optical-sizing: auto;
+	overflow-x: clip;
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+.overflow-scroll-hidden::-webkit-scrollbar {
+	display: none;
+	/* Chrome, Safari and Opera */
+}
+
+.overflow-scroll-hidden {
+	overflow: scroll;
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+.apple-glass {
+	box-shadow:
+		rgba(255, 255, 255, 0.05) 0px 6px 24px 0px,
+		rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+	background-color: rgba(255, 255, 255, 0.01);
+	backdrop-filter: blur(2px);
+}
+
+.dense-apple-glass {
+	box-shadow:
+		rgba(255, 255, 255, 0.05) 0px 6px 24px 0px,
+		rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+	background-color: rgba(255, 255, 255, 0.03);
+	backdrop-filter: blur(8px);
+}
